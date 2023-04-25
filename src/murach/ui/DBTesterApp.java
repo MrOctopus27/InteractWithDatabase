@@ -261,48 +261,7 @@ try (PreparedStatement ps = connection.prepareStatement(insertProduct)) {
      JOptionPane.showMessageDialog(null, "Exit!");
 
  }
- //JOptionPane.showMessageDialog(null, "Exit!");
 
-    	
-    }
-    
-    
-    // Thi sis for the insert
-    /*
-    private static void Insert()
-    {
-    	JOptionPane.showMessageDialog(null, "Insert your own product");
-
-        // create 1 or more line items
-     
-        String choice = "y";
-        while (choice.equalsIgnoreCase("y")) {
-    	
-    	String enterA = JOptionPane.showInputDialog(null, "Please enter code:");
-    	String enterB = JOptionPane.showInputDialog(null, "Please enter description:");
-    	String enterC = JOptionPane.showInputDialog(null, "Please enter the price");
-    	
-    	JOptionPane.showMessageDialog(null, enterA + enterB+ enterC);
-    	
-    	choice = JOptionPane.showInputDialog(null, "Continue? (y/n):", "Loop test", JOptionPane.YES_NO_OPTION);
-        }
-        JOptionPane.showMessageDialog(null, "Bye!");
-    	
-    }
-    */
-/*
-    // use this method to print a Product object on a single line
-    private static void printProduct(Product p) {
-       String productString
-                = //JOptionPane.showMessageDialog(null, 
-                StringUtil.padWithSpaces(p.getCode(), 12) 
-                + StringUtil.padWithSpaces(p.getDescription(), 38) +
-                 p.getFormattedPrice();
-
-       // System.out.println(productString);
-        JOptionPane.showMessageDialog(null, productString);
-    }
-    */
 
 }
     
